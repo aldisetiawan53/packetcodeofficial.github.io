@@ -1,0 +1,205 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+#nav-bar{
+    position: sticky;
+    z-index: 10;
+    top:0;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#00263b, #5fdde5);
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light a{
+    color: white;
+}
+.navbar-brand{
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+#banner{
+    background-image: linear-gradient(to right,#00263b, #5fdde5);
+    color: white;
+    top: 5%;
+}
+.promo-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.play{
+    filter: brightness(100000%);
+    width: 5%;
+    margin: 10px;
+}
+.size-photo{
+    width: 30%;
+    align-items: center;
+    margin: 40px;
+    top: 20px;
+}
+.displays{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+.text-muted{
+    font-size: 15px;
+    text-align: center;
+}
+.title::before
+{   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150;
+    content: '';
+    background:  linear-gradient(to right,#00263b, #5fdde5);
+    height: 2px;
+    width: 600px;
+    margin: auto auto;
+    display: block;
+    transform: translateY(60px);
+}
+.pertama
+{
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+p.sentence{
+margin-bottom: 10px;
+}
+.triangle{
+    width: 400px;
+}
+.pertama
+{
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+.kedua{
+    margin: 0px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.keempat{
+    margin-top:50px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+#identitas{
+    background-color:  #5fdde5;
+}
+.bottom{
+    width: 100%;
+}
+.max{
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.card,.card-header{
+    background-color: white!important;
+    border: none !important;
+    padding: 0px !important;
+    margin-bottom: 20px;
+}
+.accordion{
+    margin-top: 50px;
+    width: auto;
+}
+.card-header{
+   background-color: transparent !important;
+}
+.card{
+    box-shadow: 0 2px 2px 0 black;
+}
+.btn.btn-link.btn-block.text-left{
+    color: black;
+    text-align: center !important;
+    font-weight: bold;
+}
+li{
+    padding-bottom: 5px !important;
+}
+.card-body{
+    background: #fff0f5 !important;
+    margin: 10px;
+}
+.bodies{
+    height: 500px !important;
+}
+.ketiga{
+    margin: 20px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    color: white;
+}
+.gb1{
+    width: 50% !important;
+}
+.p1{
+    color: black;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 0px 25px 25px 0px !important;
+}
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #5fdde5;
+    border-left-width: .25rem;
+    border-radius: .25rem
+}
+.bd-callout-warning {
+    border-left-color: black;}
+.p2{
+    padding: 10px !important;
+    width: 250px !important;
+}
+.btn-dark{
+    color: white !important;
+}
+.foto1{
+    width: 300px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+footer{
+    background-color: #5fdde5;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.foot{
+    margin-bottom: 0px;
+}
+.btn-primary{
+    background-color: #00263b!important ;
+}
+.need{
+    margin-top: 50px;
+}
+.jawaban{
+    margin-top: 20px;
+}
+.sollution{
+    padding: 10px !important;
+    background-color: darkturquoise !important;
+    box-shadow: 0px 10px 10px 0px darkslategrey;
+    color: white !important;
+}
+.form-check{
+    margin-top: 5px;
+}
